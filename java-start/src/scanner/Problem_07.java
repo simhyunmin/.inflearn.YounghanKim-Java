@@ -15,7 +15,7 @@ public class Problem_07 {
             }
             System.out.print("나이를 입력하세요:");
             int age = scanner.nextInt();        //\n 뺴고 숫자만 입력받아서 \n가 남아있음
-            scanner.nextLine();                 //그냥 nextInt() 다음에는 nextLine()을 통해 비워준다고만 인지
+//            scanner.nextLine();                 //그냥 nextInt() 다음에는 nextLine()을 통해 비워준다고만 인지
 
 
             System.out.println("이름 : "+name + " "+ "나이 : " + age);
